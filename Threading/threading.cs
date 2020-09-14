@@ -23,9 +23,9 @@ namespace threading
 
             //Executing the methods
             t1.Start();
-            Thread.Sleep(5000);
+            Thread.Sleep(2000);
             t2.Start();
-            Thread.Sleep(5000);
+            Thread.Sleep(2000);
             t3.Start();
             Console.Read();
         }
@@ -34,8 +34,8 @@ namespace threading
         {
             Console.WriteLine("Narine scores 1");
 
-            //Sleep for 5 seconds
-            Thread.Sleep(5000);
+            //Sleep for 2 seconds
+            Thread.Sleep(2000);
 
             Console.WriteLine("Narine scores 6");
 
@@ -46,10 +46,11 @@ namespace threading
         {
             Console.WriteLine("Banton scores 1");
 
-            //Sleep for 5 seconds
-            Thread.Sleep(5000);
-
-            Thread.Sleep(5000);
+            //Sleep for 2 seconds
+            Thread.Sleep(2000);
+            
+            //Sleep for 2 seconds
+            Thread.Sleep(2000);
 
             Console.WriteLine("Banton scores 4");
         }
